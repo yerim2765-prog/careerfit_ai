@@ -34,12 +34,19 @@
 | 실행 환경 | Docker |
 
 ## 진행 현황
+## 📌 진행 현황 (2일차)
+
+- FastAPI 기반 `/health`, `/jobs`, `/analyze` API 엔드포인트를 구현했습니다.
+- Python 가상환경 및 백엔드 개발 환경을 구축하고 필수 패키지를 설치했습니다.
+- Gemini 2.5 Flash-Lite API를 연동할 수 있는 기본 구조를 구성했습니다.
+- `.env`를 활용하여 API Key를 관리하고 `MOCK_MODE` 환경변수를 설정했습니다.
+- Swagger(`/docs`)에서 각 API의 동작을 확인하며 백엔드 서버를 테스트했습니다.
 
 
 
 - [x] 1일차: 프로젝트 기획 및 개발 환경 세팅
 
-- [ ] 2일차: FastAPI 서버 구축 및 Gemini API 연결
+- [x] 2일차: FastAPI 서버 구축 및 Gemini API 연결
 
 - [ ] 3일차: 데이터 파이프라인 구축
 
