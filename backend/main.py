@@ -13,7 +13,10 @@ version="0.1.0"
 # 요리 비유: 다른 건물(프론트엔드)에서 오는 배달 요청을 허용하는 설정
 app.add_middleware(
 CORSMiddleware,
-allow_origins=["http://localhost:5173"],
+allow_origins=[
+    "http://localhost:5173",
+    "http://localhost:5174",
+],
 allow_credentials=True,
 allow_methods=["*"],
 allow_headers=["*"],
