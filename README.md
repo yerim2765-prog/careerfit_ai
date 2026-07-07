@@ -69,7 +69,7 @@
 - 머신러닝
 - 데이터 시각화
 
-
+## 📌 진행 현황 (4일차)
 ```bash
 git add .
 git commit -m "feat: RAG 기반 /analyze API 및 React UI 구현
