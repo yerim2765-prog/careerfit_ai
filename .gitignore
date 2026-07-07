@@ -19,3 +19,6 @@ dist/
 
 .DS_Store
 Thumbs.db
+
+# 개인 회고 (GitHub에 공개하지 않음)
+careerfit_ai/docs/RETROSPECTIVE.md
